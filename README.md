@@ -38,5 +38,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [GitHub](https://github.com/quielLovesLasagna)
+- GitHub - [quielLovesLasagna](https://github.com/quielLovesLasagna)
 - Frontend Mentor - [@quielLovesLasagna](https://www.frontendmentor.io/profile/quielLovesLasagna)
