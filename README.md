@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/quielLovesLasagna/blog-preview-card](https://github.com/quielLovesLasagna/blog-preview-card)
+- Live Site URL: [https://quiel-blog-preview-card.netlify.app/](https://quiel-blog-preview-card.netlify.app/)
 
 ## My process
 
