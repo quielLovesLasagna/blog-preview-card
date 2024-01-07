@@ -1,0 +1,84 @@
+@use "./abstracts" as abs;
+
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: abs.$cl-yellow;
+	font-size: abs.$fs-normal;
+	font-family: abs.$ff-figtree;
+}
+
+// COMPONENT
+.component {
+	background-color: abs.$cl-white;
+	border: 1px solid abs.$cl-black;
+	padding: 2rem;
+	border-radius: 2rem;
+	max-width: 38rem;
+	box-shadow: 1rem 1rem 0 abs.$cl-black;
+
+	&__img {
+		border-radius: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	&__tag {
+		background-color: abs.$cl-yellow;
+		font-weight: abs.$fw-xlarge;
+		padding: 0.5rem 1rem;
+		display: inline-block;
+		margin-bottom: 1.5rem;
+		border-radius: 0.5rem;
+	}
+
+	&__published {
+		margin-bottom: 1.5rem;
+	}
+
+	&__title {
+		font-size: 2.4rem;
+		margin-bottom: 1.5rem;
+	}
+
+	&__text {
+		color: abs.$cl-grey;
+		line-height: 1.6;
+		margin-bottom: 2rem;
+	}
+
+	&__author {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+
+		&-img {
+			width: 3.6rem;
+			aspect-ratio: 1;
+		}
+
+		&-name {
+			font-weight: abs.$fw-xlarge;
+		}
+	}
+}
